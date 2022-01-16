@@ -3,12 +3,12 @@ c# API implementation for emmVRC
 
 This is a project to replicate the emmVRC API server in C# using the .net WEB API. Based on work from ERROR#0418 and reverse-engineering the emmVRC mod itself.
 
-# Currently working:
+## Currently working:
     Basic authentication, just spits out a token with no PIN verification
     
     Avatar list but doesn't use the new /info endpoint yet
     
-# Planned features
+## Planned features
     No PIN creation in game, instead this will be handled by a Discord bot
     
     Companion mod to automatically patch emmVRC at startup so no more need to edit the dll every update
