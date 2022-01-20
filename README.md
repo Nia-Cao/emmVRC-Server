@@ -1,4 +1,8 @@
 # emmVRC-Server
+
+## This is on the back burner for now, got more important things to work on. I'll dump what I have after cleaning the code up. Feel free to add to it.
+
+
 c# API implementation for emmVRC
 
 This is a project to replicate the emmVRC API server in C# using the .net WEB API. Based on work from ERROR#0418 and reverse-engineering the emmVRC mod itself.
