@@ -16,6 +16,8 @@ This is a project to replicate the emmVRC API server in C# using the .net WEB AP
     
     Messaging
     
+    Pedestal scanning
+    
 ## Planned features
     No PIN creation in game, instead this will be handled by a Discord bot
     
