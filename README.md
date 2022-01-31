@@ -9,9 +9,9 @@ This is a project to replicate the emmVRC API server in C# using the .net WEB AP
     
     [x]Avatar list loading
     
-## To-do
-    Avatar info loading upon selection
+    [x]Avatar info loading upon selection
     
+## To-do
     Avatar search
     
     Messaging
