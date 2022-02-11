@@ -11,12 +11,12 @@ This is a project to replicate the emmVRC API server in C# using the .net WEB AP
     
     [x]Avatar info loading upon selection
     
+    [x]Pedestal scanning
+    
 ## To-do
-    Avatar search
+    Avatar search (code cleanup and release once this bit is finished)
     
     Messaging
-    
-    Pedestal scanning
     
 ## Planned features
     No PIN creation in game, instead this will be handled by a Discord bot
@@ -26,6 +26,8 @@ This is a project to replicate the emmVRC API server in C# using the .net WEB AP
     
     No need for VRC+ to favourite avatars. All that crappy (required) decision is doing is pushing people to less savoury mods
     
+    emmVRC mod itself still checks for VRC+ and I will not be patching that out, server doesn't care though.
+    
     emmVRC import feature using bot, just enter your user id and PIN and your favs are transferred over and pin created.
         -May result in a ban from emmVRC.
         -emmVRC being behind Cloudflare has put a stop to that one, easier to write a patch to dump avatar data as JSON
@@ -34,3 +36,7 @@ This is a project to replicate the emmVRC API server in C# using the .net WEB AP
     User and avatar checks to prevent creation of random accounts and insertion of bad avatar data
     
 More to come plus code when the basic core features are implemented.
+
+Future plans may include RemodCE support too using the same DB. REDIS support could also be added although for a personal server that seems a bit overkill.
+
+
