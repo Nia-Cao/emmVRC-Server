@@ -4,6 +4,8 @@ c# API implementation for emmVRC
 
 This is a project to replicate the emmVRC API server in C# using the .net WEB API. Based on work from ERROR#0418 and reverse-engineering the emmVRC mod itself.
 
+Basic core functions are now implimented. Auth needs PIN creation adding and JWT generation then it will be ready for a first release.
+
 ## Currently working:
     [x]Basic authentication
     
@@ -13,9 +15,10 @@ This is a project to replicate the emmVRC API server in C# using the .net WEB AP
     
     [x]Pedestal scanning
     
-## To-do
-    Avatar search (code cleanup and release once this bit is finished)
+    [x]Avatar Searching
     
+## To-do
+   
     Messaging
     
 ## Planned features
