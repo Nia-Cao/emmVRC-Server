@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "ubgP6WNKe97+Arq/TTefQQUw6mfIXt34eTVtoR9fap0=",
+  "Source": "emmVRC",
+  "BasePath": "_content/emmVRC",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "emmVRC\\wwwroot",
+      "Source": "emmVRC",
+      "ContentRoot": "C:\\Users\\pinea\\Source\\Repos\\JenRobyn\\emmVRC-Server\\emmVRC\\wwwroot\\",
+      "BasePath": "_content/emmVRC",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

@@ -1,0 +1,92 @@
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\bin\Debug\net6.0\appsettings.json
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\bin\Debug\net6.0\emmVRC.exe
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\bin\Debug\net6.0\emmVRC.deps.json
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\bin\Debug\net6.0\emmVRC.runtimeconfig.json
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\bin\Debug\net6.0\emmVRC.dll
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\bin\Debug\net6.0\ref\emmVRC.dll
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\bin\Debug\net6.0\emmVRC.pdb
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\bin\Debug\net6.0\DnsClient.dll
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\bin\Debug\net6.0\MongoDB.Bson.dll
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\bin\Debug\net6.0\MongoDB.Driver.dll
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\bin\Debug\net6.0\SharpCompress.dll
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\bin\Debug\net6.0\runtimes\linux\native\libsnappy64.so
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\bin\Debug\net6.0\runtimes\linux\native\libzstd.so
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\bin\Debug\net6.0\runtimes\osx\native\libsnappy64.dylib
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\bin\Debug\net6.0\runtimes\osx\native\libzstd.dylib
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\bin\Debug\net6.0\runtimes\win\native\libzstd.dll
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\bin\Debug\net6.0\runtimes\win\native\snappy32.dll
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\bin\Debug\net6.0\runtimes\win\native\snappy64.dll
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\obj\Debug\net6.0\emmVRC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\obj\Debug\net6.0\emmVRC.AssemblyInfoInputs.cache
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\obj\Debug\net6.0\emmVRC.AssemblyInfo.cs
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\obj\Debug\net6.0\emmVRC.csproj.CoreCompileInputs.cache
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\obj\Debug\net6.0\emmVRC.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\obj\Debug\net6.0\emmVRC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\obj\Debug\net6.0\scopedcss\bundle\emmVRC.styles.css
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\obj\Debug\net6.0\emmVRC.csproj.CopyComplete
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\obj\Debug\net6.0\emmVRC.dll
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\obj\Debug\net6.0\ref\emmVRC.dll
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\obj\Debug\net6.0\emmVRC.pdb
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\obj\Debug\net6.0\emmVRC.genruntimeconfig.cache
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\obj\Debug\net6.0\emmVRC.csproj.AssemblyReference.cache
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\bin\Debug\net6.0\emmVRC.staticwebassets.runtime.json
+C:\Users\pinea\OneDrive\Documents\VS Projects\emmVRC\emmVRC\bin\Debug\net6.0\VRChatAPI.dll
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\bin\Debug\net6.0\appsettings.json
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\bin\Debug\net6.0\emmVRC.staticwebassets.runtime.json
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\bin\Debug\net6.0\emmVRC.exe
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\bin\Debug\net6.0\emmVRC.deps.json
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\bin\Debug\net6.0\emmVRC.runtimeconfig.json
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\bin\Debug\net6.0\emmVRC.dll
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\bin\Debug\net6.0\ref\emmVRC.dll
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\bin\Debug\net6.0\emmVRC.pdb
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\bin\Debug\net6.0\DnsClient.dll
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\bin\Debug\net6.0\MongoDB.Bson.dll
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\bin\Debug\net6.0\MongoDB.Driver.dll
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\bin\Debug\net6.0\SharpCompress.dll
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\bin\Debug\net6.0\VRChatAPI.dll
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\bin\Debug\net6.0\runtimes\linux\native\libsnappy64.so
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\bin\Debug\net6.0\runtimes\linux\native\libzstd.so
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\bin\Debug\net6.0\runtimes\osx\native\libsnappy64.dylib
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\bin\Debug\net6.0\runtimes\osx\native\libzstd.dylib
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\bin\Debug\net6.0\runtimes\win\native\libzstd.dll
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\bin\Debug\net6.0\runtimes\win\native\snappy32.dll
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\bin\Debug\net6.0\runtimes\win\native\snappy64.dll
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\obj\Debug\net6.0\emmVRC.csproj.AssemblyReference.cache
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\obj\Debug\net6.0\emmVRC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\obj\Debug\net6.0\emmVRC.AssemblyInfoInputs.cache
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\obj\Debug\net6.0\emmVRC.AssemblyInfo.cs
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\obj\Debug\net6.0\emmVRC.csproj.CoreCompileInputs.cache
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\obj\Debug\net6.0\emmVRC.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\obj\Debug\net6.0\emmVRC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\obj\Debug\net6.0\scopedcss\bundle\emmVRC.styles.css
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\obj\Debug\net6.0\emmVRC.csproj.CopyComplete
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\obj\Debug\net6.0\emmVRC.dll
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\obj\Debug\net6.0\ref\emmVRC.dll
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\obj\Debug\net6.0\emmVRC.pdb
+C:\Users\pinea\Source\Repos\JenRobyn\emmVRC-Server\emmVRC\obj\Debug\net6.0\emmVRC.genruntimeconfig.cache
