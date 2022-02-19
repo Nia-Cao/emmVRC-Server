@@ -51,8 +51,8 @@ I recommend building this from source even if any binaries end up in the repo as
         
     User and avatar checks to prevent creation of random accounts and insertion of bad avatar data
     
-More to come plus code when the basic core features are implemented.
 
 Future plans may include RemodCE support too using the same DB. REDIS support could also be added although for a personal server that seems a bit overkill.
 
 
+Jen xoxo
