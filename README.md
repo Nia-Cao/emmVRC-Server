@@ -14,7 +14,9 @@ Currently no avatar favourites as I completely neglected to be bothered with it.
 
 You're on your own with regards to getting emmVRC to connect to it for the time being. If anyone wishes to write a mod to patch the ApiURL then I can link to it providing full source is provided and any binaries are un-obfuscated and will decompile back into fully readable source using DNSpy or DotPeek. Nothing malicious here.
 
-I recommend building this from source even if any binaries end up in the repo as there may be debug crap that get's left in before I push. When it's feature complete I shall release it properly
+I recommend building this from source even if any binaries end up in the repo as there may be debug crap that get's left in before I push. When it's feature complete I shall release it properly.
+
+Yeh I cocked up, it doesn't handle new tokens and login keys properly. I never tested with a clean DB. Fix incoming soon.
 
 ## Currently working:
     [x]Basic authentication
