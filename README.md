@@ -16,7 +16,6 @@ You're on your own with regards to getting emmVRC to connect to it for the time 
 
 I recommend building this from source even if any binaries end up in the repo as there may be debug crap that get's left in before I push. When it's feature complete I shall release it properly.
 
-Yeh I cocked up, it doesn't handle new tokens and login keys properly. I never tested with a clean DB. Fix incoming soon.
 
 ## Currently working:
     [x]Basic authentication
