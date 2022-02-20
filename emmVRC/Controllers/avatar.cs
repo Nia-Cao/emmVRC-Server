@@ -6,7 +6,7 @@ using static emmVRC.classes;
 using Newtonsoft.Json;
 
 namespace emmVRC.Controllers
-{    
+{
     [ApiController]
 
     public class avatar : ControllerBase
@@ -27,7 +27,7 @@ namespace emmVRC.Controllers
             await HttpContext.Response.Body.WriteAsync(bytes);
             await HttpContext.Response.CompleteAsync();
         }
-    
+
 
         [Route("api/avatar/info/{id}")]
         [HttpGet]
@@ -40,7 +40,7 @@ namespace emmVRC.Controllers
 
             if (avatar != null)
             {
-               string reply = JsonConvert.SerializeObject(avatar);
+                string reply = JsonConvert.SerializeObject(avatar);
                 byte[] bytes = Encoding.UTF8.GetBytes(reply);
                 HttpContext.Response.StatusCode = StatusCodes.Status200OK;
                 await HttpContext.Response.Body.WriteAsync(bytes);
@@ -81,7 +81,13 @@ namespace emmVRC.Controllers
             }
             if (token == null)
             {
+                string _reply = "";
+
+                _reply += "{\"message:\": \"invalid combination\"}";
+
+                byte[] _bytes = Encoding.UTF8.GetBytes(_reply);
                 HttpContext.Response.StatusCode = StatusCodes.Status401Unauthorized;
+                await HttpContext.Response.Body.WriteAsync(_bytes);
                 await HttpContext.Response.CompleteAsync();
                 Console.WriteLine("UNAUTH");
             }

@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 namespace emmVRC.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+
     public class authentication : ControllerBase
     {
         static public string randomString()
@@ -33,10 +33,11 @@ namespace emmVRC.Controllers
         public authentication(dbService dbService) =>
             _dbService = dbService;
 
+        [Route("api/authentication")]
         [HttpPost]
         public async Task Post()
         {
-  
+
             var req = HttpContext.Request;
             string body = null;
             using (StreamReader reader
@@ -107,23 +108,38 @@ namespace emmVRC.Controllers
             else if (loginToken != "")
             {
                 //Login Token
+                Console.WriteLine(loginToken);
+                var _loginToken = await _dbService.GetLoginKey(loginToken);
+                if (_loginToken != null && _loginToken.userid == user)
+                {
+                    Console.WriteLine(_loginToken.userid);
+                    Console.WriteLine(user);                    string _token = randomString();
+                    byte[] _tempTokenBytes = Encoding.UTF8.GetBytes(_token);
+                    await _dbService.SetToken(BitConverter.ToString(_tempTokenBytes).Replace("-", ""), user);
+                    string _loginKey = randomString();
+                    byte[] _tempKeyBytes = Encoding.UTF8.GetBytes(_loginKey);
+                    await _dbService.SetLoginKey(BitConverter.ToString(_tempKeyBytes).Replace("-", ""), user);
+                    string _reply = "";
 
-                string _token = randomString();
-                byte[] _tempTokenBytes = Encoding.UTF8.GetBytes(_token);
-                await _dbService.SetToken(BitConverter.ToString(_tempTokenBytes).Replace("-", ""), user);
-                string _loginKey = randomString();
-                byte[] _tempKeyBytes = Encoding.UTF8.GetBytes(_loginKey);
-                await _dbService.SetLoginKey(BitConverter.ToString(_tempKeyBytes).Replace("-", ""), user);
-                string _reply = "";
+                    _reply += "{\"token\": \"" + BitConverter.ToString(_tempTokenBytes).Replace("-", "") + "\"," +
+                        "\"loginKey\": \"" + BitConverter.ToString(_tempKeyBytes).Replace("-", "") + "\"," +
+                        "\"reset\": \"false\"}";
 
-                _reply += "{\"token\": \"" + BitConverter.ToString(_tempTokenBytes).Replace("-", "") + "\"," +
-                    "\"loginKey\": \"" + BitConverter.ToString(_tempKeyBytes).Replace("-", "") + "\"," +
-                    "\"reset\": \"false\"}";
+                    byte[] _bytes = Encoding.UTF8.GetBytes(_reply);
+                    HttpContext.Response.StatusCode = StatusCodes.Status200OK;
+                    await HttpContext.Response.Body.WriteAsync(_bytes);
+                    await HttpContext.Response.CompleteAsync();
+                }
+                else
+                {
+                    string _reply = "";
 
-                byte[] _bytes = Encoding.UTF8.GetBytes(_reply);
-                HttpContext.Response.StatusCode = StatusCodes.Status200OK;
-                await HttpContext.Response.Body.WriteAsync(_bytes);
-                await HttpContext.Response.CompleteAsync();
+                    _reply += "{\"message:\": \"invalid combination\"}";
+
+                    byte[] _bytes = Encoding.UTF8.GetBytes(_reply);
+                    HttpContext.Response.StatusCode = StatusCodes.Status401Unauthorized;
+                    await HttpContext.Response.Body.WriteAsync(_bytes);
+                }
 
             }
 
@@ -141,7 +157,14 @@ namespace emmVRC.Controllers
                 await HttpContext.Response.CompleteAsync();
             }
         }
+
+
+        [Route("api/authentication/logout")]
+        [HttpGet]
+        public async Task Logout()
+        {
+
+        }
     }
 }
-
 

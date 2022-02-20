@@ -47,8 +47,8 @@ namespace emmVRC.Services
         {
             UpdateResult result = await _updateToken.UpdateOneAsync(
                                 Builders<BsonDocument>.Filter.Eq("userid", user),
-                                Builders<BsonDocument>.Update.Set("token", token)
-                                );
+                                Builders<BsonDocument>.Update.Set("token", token),
+                                options: new UpdateOptions { IsUpsert = true });
             Console.WriteLine(result.ModifiedCount.ToString());
         }
 
@@ -59,8 +59,8 @@ namespace emmVRC.Services
         {
             UpdateResult result = await _updateLoginKey.UpdateOneAsync(
                                 Builders<BsonDocument>.Filter.Eq("userid", user),
-                                Builders<BsonDocument>.Update.Set("loginKey", key)
-                                );
+                                Builders<BsonDocument>.Update.Set("loginKey", key),
+                                options: new UpdateOptions { IsUpsert = true });
             Console.WriteLine(result.ModifiedCount.ToString());
         }
 
