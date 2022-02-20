@@ -163,7 +163,17 @@ namespace emmVRC.Controllers
         [HttpGet]
         public async Task Logout()
         {
-
+            var req = HttpContext.Request;
+            string body = null;
+            using (StreamReader reader
+                  = new StreamReader(req.Body, Encoding.UTF8, true, 1024, true))
+            {
+                body = await reader.ReadToEndAsync();
+            }
+            dynamic temp = JsonConvert.DeserializeObject<dynamic>(body);
+            var authToken = HttpContext.Request.Headers["Authorization"].ToString();
+            string user = temp.SelectToken("username");
+            _dbService.RemoveToken(user);
         }
     }
 }

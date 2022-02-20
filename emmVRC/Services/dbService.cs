@@ -52,6 +52,12 @@ namespace emmVRC.Services
             Console.WriteLine(result.ModifiedCount.ToString());
         }
 
+        public async void RemoveToken(string user)
+        {
+            await _updateToken.DeleteOneAsync(
+                                Builders<BsonDocument>.Filter.Eq("userid", user));
+        }
+
         public async Task<loginKeys> GetLoginKey(string id) =>
             await _loginKeys.Find(x => x.loginKey == id).FirstOrDefaultAsync();
 
