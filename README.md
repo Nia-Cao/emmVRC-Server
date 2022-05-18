@@ -1,6 +1,6 @@
 # emmVRC-Server
 
-## MOVED TO https://github.com/JenRobyn/emmVRCServer
+## MOVED TO https://github.com/Nia-Cao/emmVRCServer
 
 c# API implementation for emmVRC
 
